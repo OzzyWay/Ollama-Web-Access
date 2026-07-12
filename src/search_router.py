@@ -31,6 +31,8 @@ Search = true ONLY when:
 - The user asks for news or recent events
 - The user asks for live data
 - The user asks for prices, weather, schedules, or rankings
+- The user asks for specific information that may not be in your training data
+- The user asks for information about detailed people, places, or things
 
 Search = false for:
 - Greetings

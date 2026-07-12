@@ -1,5 +1,5 @@
 from html_extract import extract_from_url
-from chunker import Chunker
+from src.chunker import Chunker
 from optimization import rm_stopwords
 
 

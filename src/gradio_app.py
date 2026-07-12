@@ -3,8 +3,8 @@ import subprocess
 import gradio as gr
 import ollama
 
-from search_retrive import search_url
-from search_router import SearchRouter
+from src.search_retrive import search_url
+from src.search_router import SearchRouter
 
 
 router = SearchRouter(model="llama3.2:3b")
@@ -136,7 +136,7 @@ def chat(message, history, model):
                 "content": f"""
 The following information was retrieved from webpages.
 Use this information when answering.
-
+DO NOT MENTION TO THE USER THAT THIS INFORMATION WAS PROVIDED
 ========================
 WEB INFORMATION
 ========================
